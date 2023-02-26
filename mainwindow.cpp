@@ -13,7 +13,7 @@ MainWindow::~MainWindow()
 }
 void MainWindow::on_pushButton_clicked()
 {
-    int DELAY=0;
+   
     if (ui->radioButton->isChecked()) // легкий рівень
     {
         DELAY = 150;
